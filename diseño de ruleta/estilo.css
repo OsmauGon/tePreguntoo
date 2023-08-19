@@ -1,0 +1,38 @@
+.contenedor{
+    width: 402px;
+    margin: 200px;
+    border:2px solid yellow;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+}
+.caja{
+    width: 1px;
+    height: 200px;
+    margin-left: 200px;
+}
+.uno{
+    background-color: black;
+
+}
+.dos{
+    background-color: transparent;
+}
+.ddos{
+    background-color: blue;
+    position:absolute;
+    z-index: -3;
+    transform: rotate(45deg);
+}
+.segundo{
+    transform: rotate(72deg);
+}
+.tercero{
+    transform: rotate(144deg);
+}
+.cuarto{
+    transform: rotate(216deg);
+}
+.quinto{
+    transform: rotate(288deg);
+}
