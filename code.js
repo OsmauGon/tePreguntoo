@@ -45,3 +45,6 @@ function girarRuleta(){
         }
     },8000);
 }
+function aparecerPregunta(){
+    
+}
