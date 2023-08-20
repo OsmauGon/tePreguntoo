@@ -21,6 +21,21 @@ girarRuleta();
 /***************************************************************************/
 /***************************************************************************/
 /***************************************************************************/
+var preguntas =["Matematicas","Lengua y literatura","Ciencias Sociales","Ciencias Naturales"];
+function multiplicador(temas,limite){
+    let listaDePreguntas = [];
+    for(cosa of temas){
+        let tema = [];
+        for(i=1; i<=limite; i++){
+            let pregunta = [`Pregunta de ${cosa} numero ${i}`,["Opsion 1","Opsion 2","Opsion 3","Opsion 4"],"Opsion 1"];
+            tema.push(pregunta);
+        }
+        listaDePreguntas.push(tema);
+    }
+    return listaDePreguntas
+}
+var preguntasX10 = multiplicador(preguntas,10);
+console.log(preguntasX10);
 /***************************************************************************/
 /***************************************************************************/
 /***************************************************************************/
